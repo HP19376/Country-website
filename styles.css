@@ -1,0 +1,83 @@
+/*
+
+    selector{
+
+        property: value;
+        Property: value;
+        Property: value;
+        etc....
+
+    }
+
+    Writing selectors:
+
+    tagname -> selects all tags of a given type
+    .classname -> selects all mebers of a given class
+    tagname.classname - > selects only tags that are also mebers of a given class
+
+    > -> cild symbol
+
+    tagname>tagname
+    tagname>. classname
+    .classname>.classname
+    .classname.tagname
+*/
+
+.nav{
+  list-style: none;
+border-style: groove;
+padding-left: 0;
+width: 50%;
+margin: auto;
+text-align: center;
+}
+
+.nav>li {
+   border-style: ridge;
+   display: inline-block;
+   border-radius: 10px;
+   background-color: darkred;   
+}
+.nav>li>a{
+  text-decoration: none;
+  color: white;
+}
+body{
+  background-image: url(Images/Flag.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homeimg{
+  width: 20%;
+  height: auto;
+  border-radius: 10px;
+}
+.hometext{
+  border-style: double;
+  display: block;
+  border-radius: 10px;
+  background-color: white;   
+}
+h1{
+  border-style: double;
+  display: block;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+}
+p{
+  border-style: double;
+  display: block;
+  border-radius: 10px;
+  background-color: white;   
+  text-align: center;
+  margin: auto;
+}
+img{
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+}
